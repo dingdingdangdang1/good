@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/teamA"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".basketball">
+
+    <TextView
+        android:id="@+id/nameA"
+        android:layout_width="match_parent"
+        android:layout_height="54dp"
+        android:layout_marginTop="16dp"
+        android:gravity="center"
+        android:text="@string/teamA"
+        android:textColor="@android:color/holo_orange_light"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/scoreA"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="0dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="@string/score"
+        android:textColor="@android:color/holo_green_dark"
+        android:textSize="60sp" />
+
+    <Button
+        android:id="@+id/ba1"
+        android:layout_width="match_parent"
+        android:layout_height="5dp"
+        android:layout_marginBottom="24dp"
+        android:layout_weight="1"
+
+        android:background="@android:color/holo_orange_light"
+        android:text="@string/p3" />
+
+    <Button
+        android:id="@+id/ba2"
+        android:layout_width="match_parent"
+        android:layout_height="5dp"
+        android:layout_marginBottom="24dp"
+        android:layout_weight="1"
+        android:background="@android:color/holo_green_light"
+        android:text="@string/p2" />
+
+    <Button
+        android:id="@+id/ba3"
+        android:layout_width="match_parent"
+        android:layout_height="5dp"
+        android:layout_marginBottom="50dp"
+        android:layout_weight="1"
+        android:background="@android:color/holo_orange_light"
+        android:text="@string/p1" />
+
+    <Button
+        android:id="@+id/breset"
+        android:layout_width="147dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="50dp"
+        android:background="@android:color/holo_orange_dark"
+        android:text="@string/reset" />
+</LinearLayout>

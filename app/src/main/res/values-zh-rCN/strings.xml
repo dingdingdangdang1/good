@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">good</string>
+    <string name="str1">你好，世界</string>
+    <string name="inputtext">姓名</string>
+    <string name="button">点击</string>
+    <string name="tishi">温度为</string>
+    <string name="input">摄氏温度</string>
+    <string name="result">结果为：</string>
+    <string name="score">0</string>
+    <string name="reset">reset</string>
+    <string name="p2">+2point</string>
+    <string name="p3">+3point</string>
+</resources>

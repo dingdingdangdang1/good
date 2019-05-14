@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">good</string>
+    <string name="str1">Hello World</string>
+    <string name="inputtext">Name</string>
+    <string name="button">click</string>
+    <string name="tishi">The temperature is</string>
+    <string name="input">Celsius</string>
+    <string name="result">result:</string>
+    <string name="teamA">teamA</string>
+    <string name="score">0</string>
+    <string name="reset">reset</string>
+    <string name="p1">+1point</string>
+    <string name="p2">+2point</string>
+    <string name="p3">+3point</string>
+</resources>
